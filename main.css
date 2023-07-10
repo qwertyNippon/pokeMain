@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0d0e0f;
   }
   
-  body,
+  body{
+    background: linear-gradient(135deg, #00feba, #2b2076);  
+  }
+  
+button{
+  color: #2b2076;
+}
+
   input,
   textarea,
-  select,
-  button {
+  select {
     color: white;
     font: 400 16px "Roboto", sans-serif;
   }
@@ -43,7 +48,7 @@
     height: 36px;
     padding: 4px 16px;
     background-color: white;
-    color: #000;
+    color: #000000;
   }
   
   .searchBox button {
