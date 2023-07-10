@@ -14,6 +14,10 @@ function getPokemon(e) {
       </div> 
       <div class="pokemonInfos">
         <h1>${data.name}</h1>
+        <p>HP: ${data.stats[5].base_stat}</p>
+        <p>Attack: ${data.stats[4].base_stat}</p>
+        <p>Defense: ${data.stats[3].base_stat}</p>
+        <p>Experience: ${data.base_experience}</p>
         <p>Weight: ${data.weight}</p>
       </div>`;
     })
