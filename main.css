@@ -7,10 +7,6 @@
   body{
     background: linear-gradient(135deg, #00feba, #2b2076);  
   }
-  
-button{
-  color: #2b2076;
-}
 
   input,
   textarea,
@@ -21,13 +17,8 @@ button{
   
   button {
     cursor: pointer;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-    cursor: pointer;
-  }
+    color: #2b2076;
+}
   
   main {
     width: 80%;
